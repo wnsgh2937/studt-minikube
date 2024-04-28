@@ -25,6 +25,7 @@ Pod
 ConfigMap
 -  kube-root-ca.crt
     - ns: default, kube-node-lease, kube-public, kube-system
+    - 안전한 통신을 위한 인증서 ( 특히 kubectl )
 - cluster-info
 - coredns
 - extension-apiserver-authentication
@@ -40,3 +41,4 @@ Service
 
 Service Account
 ![alt text](resource/image.png)
+
